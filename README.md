@@ -4,7 +4,7 @@
 
 </div>
 
-<div style="text-align: center">
+<div align="center">
     <a href="https://scholar.google.com/citations?user=ILpxpfwAAAAJ&hl=zh-CN" target="_blank">Fan Lu*</a>,
     <a href="https://weiwu-ww.github.io/" target="_blank">Wei Wu*</a>,
     <a href="https://zkcys001.github.io/" target="_blank">Kecheng Zheng</a>,
@@ -18,7 +18,7 @@
     <a href="https://scholar.google.fr/citations?user=gDnBC1gAAAAJ&hl=en" target="_blank">Zheng-Jun Zha ✉️</a>
 </div>
 <br>
-<div style="text-align: center;">
+<div align="center">
 <a href="https://arxiv.org/submit/6060963/view" target="_blank">
     <img alt="arXiv" src="https://img.shields.io/badge/Paper-CompreCap-red?logo=arxiv" height="25" /> &ensp;
 </a>
