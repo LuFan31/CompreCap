@@ -20,11 +20,9 @@
 <br>
 <div align="center">
 <a href="https://arxiv.org/submit/6060963/view" target="_blank">
-    <img alt="arXiv" src="https://img.shields.io/badge/Paper-CompreCap-red?logo=arxiv" height="25" /> &ensp;
-</a>
+    <img alt="arXiv" src="https://img.shields.io/badge/Paper-CompreCap-red?logo=arxiv" height="25" /></a> &ensp;
 <a href="https://huggingface.co/datasets/FanLu31/CompreCap" target="_blank">
-    <img alt="HF Dataset: CV-Bench" src="https://img.shields.io/badge/%F0%9F%A4%97%20_Benchmark-CompreCap--Bench-ffc107?color=ffc107&logoColor=white" height="25" /> &ensp;
-</a>
+    <img alt="HF Dataset: CV-Bench" src="https://img.shields.io/badge/%F0%9F%A4%97%20_Benchmark-CompreCap--Bench-ffc107?color=ffc107&logoColor=white" height="25" /></a> &ensp;
 </div>
 <br>
 <div align="center">
