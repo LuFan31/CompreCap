@@ -21,7 +21,7 @@ class BaseEvaluator(object):
         self.results = {
             'object coverage': 0.,
             'pixel coverage': 0.,
-            'object score': 0.,
+            'attribute score': 0.,
             'relation score': 0.,
         }
         self.count = 0
@@ -50,7 +50,7 @@ class BaseEvaluator(object):
         self.results['pixel coverage'] += coverage*100.
 
     def update_score(self, score):
-        self.results['object score'] += score
+        self.results['attribute score'] += score
 
     def update_relation_score(self, score):
         self.results['relation score'] += score
@@ -68,7 +68,11 @@ class BaseEvaluator(object):
             string = f'{k}: {v/self.count:.2f}'
             if 'coverage' in k: string = string+'%'
             print(string)
+        object_coverage = self.results['object coverage']/self.count
+        attribute_score = self.results['attribute score']/self.count * 20.0
+        relation_score = self.results['relation score']/self.count * 20.0
+        result_logs['Unified score'] = f'{0.25 * object_coverage + 0.35 * attribute_score + 0.4 * relation_score:.2f}'
+        print(f'Unified score: {0.25 * object_coverage + 0.35 * attribute_score + 0.4 * relation_score}')
         with open(os.path.join(self.output_dir, str(self.save_index)+'_result.json'), 'w') as f:
             log_info = [result_logs]+[self.log_info]
             json.dump(log_info, f, indent=2)
-

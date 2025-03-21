@@ -106,12 +106,12 @@ class Evaluator(BaseEvaluator):
                     sub_captions, word2caption, match_object)
                 self.get_pixel_coverage(des_score, image, mask)
 
-                result = {'object':{}, 'description':{}, 'relation':{}}
+                result = {'object':{}, 'attribute':{}, 'relation':{}}
 
                 for k, gt_object in enumerate(no_overlap_gt_objects):
                     result['object'][gt_object] = float(object_score[k])
                 for k, des in enumerate(gt_description):
-                    result['description'][des] = float(des_score[k])
+                    result['attribute'][des] = float(des_score[k])
                 relations = []
                 for r in gt_relations:
                     if isinstance(r, list):

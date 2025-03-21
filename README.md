@@ -1,21 +1,21 @@
 <div align="center">
 
-#  Benchmarking Large Vision-Language Models via Directed Scene Graph <br> for Comprehensive Image Captioning
+#  Benchmarking Large Vision-Language Models via Directed Scene Graph <br> for Comprehensive Image Captioning (CVPR 2025)
 
 </div>
 
 <div align="center">
     <a href="https://scholar.google.com/citations?user=ILpxpfwAAAAJ&hl=zh-CN" target="_blank">Fan Lu*</a>,
     <a href="https://weiwu-ww.github.io/" target="_blank">Wei Wu*</a>,
-    <a href="https://zkcys001.github.io/" target="_blank">Kecheng Zheng</a>,
+    <a href="https://zkcys001.github.io/" target="_blank">Kecheng Zheng ✉️</a>,
     <a href="https://scholar.google.com/citations?user=dNhzCu4AAAAJ&hl=zh-CN">Shuailei Ma</a>,
     <a href="https://scholar.google.com/citations?user=BwdpTiQAAAAJ&hl=zh-CN">Biao Gong</a>,
     <br>
     <a href="https://jiaweiliu92.github.io/" target="_blank">Jiawei Liu</a>,
-    <a href="https://tiaotiao11-22.github.io/wzhai/" target="_blank">Wei Zhai</a>,
+    <a href="https://tiaotiao11-22.github.io/wzhai/" target="_blank">Wei Zhai ✉️</a>,
     <a href="https://scholar.google.com/citations?user=K7rTHNcAAAAJ&hl=en&oi=ao" target="_blank">Cao Yang</a>,
     <a href="https://shenyujun.github.io/" target="_blank">Yujun Shen</a>,
-    <a href="https://scholar.google.fr/citations?user=gDnBC1gAAAAJ&hl=en" target="_blank">Zheng-Jun Zha ✉️</a>
+    <a href="https://scholar.google.fr/citations?user=gDnBC1gAAAAJ&hl=en" target="_blank">Zheng-Jun Zha</a>
 </div>
 <br>
 <div align="center">
