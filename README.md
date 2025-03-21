@@ -31,6 +31,11 @@
 </p>
 </div>
 
+## 📣 Update Log
+- [2024.12.11] 🎉 Here comes CompreCap Benchmark! We release the paper, code and dataset. 
+- [2025.02.28] 🥳 CompreCap Benchmark is accepted by CVPR 2025.
+- [2025.03.21] We provide a unified metric to evaluate the overall quality of comprehensive image captioning.
+
 ## ⚙️  Installation
 1. Clone the repository:
     ```
